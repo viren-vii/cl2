@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Nexa;
+    src: url(../../nexa/Nexa\ Bold.otf);
+}
+body{
+    text-align: center;
+    font-family: Nexa;
+    background-color: black;
+}
+#main{
+    transition: 0.5s;
+    color: #FA255E;
+    font-size: xx-large;
+}
+#main:hover{
+    transition: 0.5s;
+    color: #ffc1d1;
+}
+table{
+    transition: 2s ease;
+    table-layout: fixed;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    vertical-align: middle;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    background-color: #FA255E;
+    color :#F8E5E5;
+}
+th{
+    line-height: 550%;
+}
+td{
+    transition: 0.5s;
+    padding: 5px;;
+    background-color: black;
+}
+td:hover{
+    transition: 0.5s;
+    background-color: white;
+}
+img{
+    border-radius: 5px;
+}
+a{
+    color: #FA255E;
+}
+::selection {
+    color: rgb(255, 255, 255);
+    background: #FA255E;
+  }
+p{
+      color: #FA255E;
+}
