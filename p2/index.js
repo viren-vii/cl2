@@ -1,8 +1,7 @@
-window.onload(function(){
-    var nameRef = document.getElementById("name");
-})
+var nameRef;
+window.onload = function(){
+    nameRef = document.getElementById("name");
+}
 function check(){
-    if(nameRef.value == null){
-        alert("Enter Name Properly!");
-    }
+    alert("Form Submission for "+nameRef.value+" initiated!");
 }
