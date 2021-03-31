@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Nexa;
+    src: url(../nexa/Nexa\ Bold.otf);
+}
+body{
+    text-align: center;
+    color: aliceblue;
+    font-family: Nexa;
+    font-weight: lighter;
+    font-size: 150%;
+    background-color: rgb(224, 228, 255);
+}
+form{
+    text-align: center;
+    padding: 5rem;
+    line-height: 4rem;
+    background-color: rgb(0, 8, 53);
+}
+header, footer{
+    background-color: rgb(127, 146, 255);
+}
+header{
+    margin-top: 0;
+}
+h1{
+    padding: 1em;
+}

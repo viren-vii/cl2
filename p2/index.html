@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="utf-8">
+    <title>Event Handeling</title>
+    <meta name="description" content="RESUME">
+    <meta name="author" content="Viren-vii">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header><h1>REGISTRATION FORM</h1></header>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required><br>
+
+        <input type="radio" name="status" id="fresher" required><label for="fresher">Fresher</label><input type="radio" name="status" id="repeater" required><label for="repeater">Repeater</label><br>
+
+        <label for="language">Languages Known:</label>
+        <input type="checkbox" id="cpp" ><label for="cpp">C++</label>
+        <input type="checkbox" id="js" ><label for="js">JavaScript</label>
+        <input type="checkbox" id="py" ><label for="py">Python</label>
+        <input type="checkbox" id="java" ><label for="java">Java</label><br>
+
+        <label for="bd">DOB:</label>
+        <input type="date" name="bd" id="bd" min="1971-12-31" max="2001-12-31"><br>
+
+        <label for="email">Email Id:</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="num">Phone Number:</label>
+        <input type="tel" name="num" id="num"><br>
+
+        <label for="res">Link To Your Resume:</label>
+        <input type="url" name="res" id="res"><br>
+
+        <button onclick="check();">SUBMIT</button>
+    </form>
+    <footer><h1> .  </h1></footer>
+
+    <script src="./index.js"></script>
+</body>
+</html> 
