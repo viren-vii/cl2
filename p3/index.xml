@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<students>
+    <student>
+        <name>Student 1</name>
+        <college>College Name</college>
+        <branch>Branch</branch>
+        <year>2012 </year>
+        <mail>student@college.com</mail>
+    </student>
+    <student>
+        <name>Student 2</name>
+        <college>College Name</college>
+        <branch>Branch</branch>
+        <year>2013</year>
+        <mail>student2@college.com</mail>
+    </student>
+    <student>
+        <name>Student 3</name>
+        <college>College Name</college>
+        <branch>Branch</branch>
+        <year>2014</year>
+        <mail>student3@college.com</mail>
+    </student>
+</students>
